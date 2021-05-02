@@ -1,0 +1,48 @@
+@font-face {
+    font-family: train;
+    src: url("./fonts/TrainOne-Regular.ttf");
+}
+@font-face {
+    font-family: tiring;
+    src: url("./fonts/Trirong-Medium.ttf");
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(8, 8, 74);
+}
+body {
+    display: flex;
+    flex-direction:column;
+}
+/* Count section */
+#count{
+
+}
+h1{
+    padding-top:20vh;
+    text-align: center;
+    font-family: train;
+    font-size:5rem;
+
+}
+h2{
+    font-family:train;
+    font-size: 4rem;
+    margin:0 3rem;
+}
+p{
+    font-family:train;
+    font-size:1rem;
+    text-align: center;
+
+}
+.time{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    padding:30px;
+}
+/* Count Section */
